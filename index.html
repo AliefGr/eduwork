@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Profile Biodata</title>
 </head>
 <body>
-    <h1>Hallo</h1>
+
+  <!-- Section 1: Menu -->
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#biodata">Biodata</a>
+      <a href="#portofolio">Portofolio</a>
+    </nav>
+  </header>
+
+  <!-- Section 2: Judul kiri, gambar kanan -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Halo, Saya Alief Gymnastiar</h1>
+      <p>Mahasiswa Ilmu Komputer | Frontend Developer</p>
+    </div>
+    <img src="https://via.placeholder.com/250" alt="Foto Profil">
+  </section>
+
+  <!-- Section 3: Biodata dengan 6 Box -->
+  <section id="biodata">
+    <h2>Biodata</h2>
+    <div class="biodata">
+      <div class="box">Nama: Alief Gymnastiar</div>
+      <div class="box">NIM: 220202617</div>
+      <div class="box">Kelas: IKRA</div>
+      <div class="box">Jurusan: Ilmu Komputer</div>
+      <div class="box">Email: alief@example.com</div>
+      <div class="box">Hobi: Programming</div>
+    </div>
+  </section>
+
+  <!-- Section 4: Portofolio dengan Tabel -->
+  <section id="portofolio">
+    <h2>Portofolio</h2>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Proyek</th>
+        <th>Deskripsi</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Aplikasi Catatan</td>
+        <td>Aplikasi CRUD menggunakan React dan Redux</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Website Portofolio</td>
+        <td>Website personal menggunakan HTML, CSS, dan JavaScript</td>
+        <td>2025</td>
+      </tr>
+    </table>
+  </section>
+
 </body>
 </html>
